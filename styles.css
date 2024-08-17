@@ -1,2 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
 
-/* Your CSS Code here. */
+.questions {
+    background-color: #f8fffe;
+    height: 50px;
+    margin-top: 20px;
+    padding: 15px;
+    max-width: 600px;
+    border-left: 8px solid green;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.questions p {
+    margin: 0;
+}
